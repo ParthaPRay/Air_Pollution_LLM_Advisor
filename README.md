@@ -155,6 +155,11 @@ requests==2.31.0
 * Thinking mode is disabled in Ollama calls (`"think": false`) for faster responses.
 
 ---
+## 🔒 License
+
+MIT License (You can specify if applicable)
+
+---
 
 ## 📄 Citation
 
@@ -174,11 +179,7 @@ If you use this work, please cite:
 
 ---
 
-## 🔒 License
 
-MIT License (You can specify if applicable)
-
----
 
 ```
 
