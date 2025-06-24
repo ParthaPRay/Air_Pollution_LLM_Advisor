@@ -139,9 +139,9 @@ Example:
 ## 📦 requirements.txt
 
 ```text
-gradio==4.27.0
-folium==0.15.1
-requests==2.31.0
+gradio
+folium
+requests
 ```
 
 ---
