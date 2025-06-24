@@ -156,10 +156,21 @@ requests==2.31.0
 
 ---
 
-## 📄 Credits
+## 📄 Citation
 
-Developed as part of PhD research by **Partha Pratim Ray**
-Special thanks to Open-Meteo and Ollama for providing open APIs and open-source tools.
+If you use this work, please cite:
+
+```bibtex
+@misc{ray2025airpollution,
+  author = {Partha Pratim Ray},
+  title = {Air Pollution LLM Advisor},
+  year = {2025},
+  month = {June},
+  url = {https://github.com/yourusername/air-pollution-llm-advisor},
+  note = {Version 1.0},
+  howpublished = {GitHub repository},
+}
+
 
 ---
 
