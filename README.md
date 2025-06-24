@@ -1,10 +1,3 @@
-Excellent. Now I will give you a full detailed **README.md** along with the **requirements.txt** suitable for your GitHub repository.
-
----
-
-# 📄 README.md
-
-````markdown
 # Air Pollution LLM Advisor
 
 **Author**: Partha Pratim Ray  
@@ -178,18 +171,3 @@ MIT License (You can specify if applicable)
 
 ```
 
----
-
-✅ **This is fully production-ready README.md for GitHub**
-
----
-
-👉 If you want, I can also:
-
-- create the actual full folder structure  
-- give you the full `app.py` code  
-- prepare a ready-to-upload **GitHub project template**
-
-Shall I prepare **full GitHub repo version** for you?  
-👉 Just say: **“Prepare full GitHub template”**.
-```
