@@ -25,6 +25,31 @@ The system provides both real-time pollution data and expert-like environmental 
 
 ---
 
+## ⚙ Deployment Scenario: Raspberry Pi + Local Network Ollama
+
+This system is specifically designed to run on **resource-constrained edge devices like Raspberry Pi 4B**, while leveraging the power of **localized private LLM inference** hosted on a separate GPU-enabled machine on the same local network.
+
+The Raspberry Pi 4B acts as:
+
+* The **interactive user interface server** using Gradio (lightweight, fully browser-based UI)
+* The **data fetcher** from Open-Meteo public API for live air pollution data
+* The **controller** that sends structured prompts to the LLM server over the local network
+
+Meanwhile, the Large Language Model (LLM) itself runs independently on a **local GPU-powered laptop or workstation** using **Ollama**, an open-source privacy-preserving LLM deployment platform.
+
+This architecture offers:
+
+* ✅ **Privacy-aware design** — no external cloud dependencies
+* ✅ **Free of cost** — Ollama and all models run fully offline after setup
+* ✅ **High availability** — even works entirely offline after initial setup
+* ✅ **Separation of concerns** — lightweight front-end on Raspberry Pi, heavy model inference on GPU server
+* ✅ **Interactive real-time dialogue** — Gradio handles persistent chat sessions, the LLM responds to queries, and the user can freely continue conversations after receiving advice
+
+In this hybrid edge-GPU deployment, all sensitive data remains entirely within the user's private infrastructure, making it highly suitable for research, academic demonstrations, or privacy-critical deployments.
+
+
+---
+
 ## 🌐 Features
 
 - Live AQI data retrieval from Open-Meteo
