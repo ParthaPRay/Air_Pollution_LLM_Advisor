@@ -143,6 +143,14 @@ http://0.0.0.0:7860
 
 ---
 
+The Ollama activivity can be seen by following command on laptop acting as cloud in real-time on a terminal:
+
+```bash
+journalctl -u ollama -f
+```
+
+---
+
 ## 📝 Output File
 
 The application creates a log file `llm_aqi_log.csv` containing:
